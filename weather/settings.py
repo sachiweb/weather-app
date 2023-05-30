@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_2tpp2l-_o2t-th4u(dh&^8&*!36huwfngzvli!xh79qs8y@=$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'weather',
-        'HOST': '127.0.0.1',
+        'HOST': '16.16.76.76',
         'PORT': '3306',
-        'USER': 'root',
+        'USER': 'iamuser',
         'PASSWORD': '1234Mysql',
     }
 }
